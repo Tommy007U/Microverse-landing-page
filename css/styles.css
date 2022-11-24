@@ -7,17 +7,20 @@ body{
     font-size: 18px;
     background-color: black;
 }
+/***main div that give the structure to the all web page it has 100% alloactio to itself then share with small div as coded below***/
+
 #main-page{
-    height: 700px;
+    height: 1400px;
     padding: 15px;
     margin: 8px;
-    border: 1px solid black;
     border-radius: 16px;
     background-color:black;
 }
+/** the header contains logo Title and link of diiferent subpages**/
+
+
 .header{
-   height: 35%;
-   border: 1px solid black;
+   height: 25%;
    border-radius: 6px;
    background-color:hsl(215, 28%, 17%);
 }
@@ -26,31 +29,85 @@ body{
     justify-content: space-between;
 }
 img{
-  border-radius: 85px;
-  padding: 5px;
-}
-.navbar ul{
-    display:inline-flex;
-    margin-right: 80px;
-    justify-content: space-around;
-    list-style-type: none;
-}
-.navbar li{
-    text-decoration: none;
-}
-a{
-    text-decoration: none;
+  border-radius: 80px;
+  padding: 2px;
+  margin: auto 120px; 
 }
 
-.full-content{
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 80px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+
+  li a:hover {
+    background-color: #111;
+  }
+  /** setting the main heading "title in the center and giving it it color"**/
+
+
+  .title{
+   text-align: center;
+   font-size: 30px;
+   color: #F9FAF8;
+  }
+  /*** create the button and giving it a space***/
+
+
+  .btn{
+    position: absolute;
+    top:45%;
+    background-color:#0909d8c0;
+    color: #fff;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    font-size: 18px;
+   }
+  
+/**working on pictures that will be dispaled on the top-content div **/
+.top-content{
+    display: flex;
     background-color:bisque;
-    height: 55%;
-    border: 1px solid black;
+    height: 25%;
     border-radius: 6px;
 }
+.top-content img{
+    width: 260px;
+    height: 220px;
+}
+/*** third div that contains***/
+.content{
+    height: 25%;
+    background: #b3b4b6;
+}
+/*** bottom div ***/
+.bottom{
+  height: 20%;
+  background: #F9FAF8;
+
+}
+/*** footer ***/
 .footer{
     background-color: hsl(215, 28%, 17%);
-    height: 10%;
+    height: 5%;
     border: 1px solid black;
     border-radius: 6px;
 }

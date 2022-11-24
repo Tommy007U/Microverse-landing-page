@@ -3,3 +3,38 @@
                Parents, Kids, Caretakers we are all happy here, no one had ever complain about us we are being refered every day, week, month, year. Let our children have fun, be happy and feel confortable
                trust me This is the Place   
             </p>
+            <p>Kids are loving, we need to keep that in them, only safe place will make your child happy confaortable, loving and adorable and that is what we are all about!</p>
+            .title{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    align-content:space-between;
+    height: 250px;
+    width: 400px;
+    font-size: 24px;
+    background-color: blue;
+  }
+  /*.title-h1{
+
+  }
+  .title img{
+    align-items: flex-end;
+    padding: 20px;
+    margin: auto 120px;
+  }
+  .title {
+    height: 200px;
+    width: 400px;
+    background: red;
+  }**/
+  
+  .title-h1 {
+    height: 50%;
+    width: 50%;
+    background: blue;
+  }
+  .title-img{
+    height: 50%;
+    width: 50%;
+    background: blue;
+  }
