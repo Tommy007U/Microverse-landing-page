@@ -3,6 +3,7 @@
                Parents, Kids, Caretakers we are all happy here, no one had ever complain about us we are being refered every day, week, month, year. Let our children have fun, be happy and feel confortable
                trust me This is the Place   
             </p>
+            As far as every Parent is concern they always wish the best for their children when you see your child coming from our place happily smiling while running to you at pick up title-img it tells you that they had a beauful happy and lovely day, we always receive compliments from parents saying I quote <strong>"my child over was asking me over the weekend if am not taking him to skoll cause he want to come and play with his friend"</strong> that show how much fun our little ones have when their with our caretaker 
             <p>Kids are loving, we need to keep that in them, only safe place will make your child happy confaortable, loving and adorable and that is what we are all about!</p>
             .title{
     display: flex;

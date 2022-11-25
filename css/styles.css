@@ -14,24 +14,24 @@ body{
     padding: 15px;
     margin: 8px;
     border-radius: 16px;
-    background-color:black;
+    
 }
 /** the header contains logo Title and link of diiferent subpages**/
 
 
 .header{
-   height: 25%;
-   border-radius: 6px;
-   background-color:hsl(215, 28%, 17%);
+    height: 25%;
+    border-radius: 3px;
+    background-color:hsl(215, 28%, 17%);
 }
 .logo{
     display:flex;
     justify-content: space-between;
 }
 img{
-  border-radius: 80px;
-  padding: 2px;
-  margin: auto 120px; 
+    border-radius: 80px;
+    padding: 2px;
+    margin: auto 120px; 
 }
 
 .navbar ul {
@@ -64,9 +64,9 @@ img{
 
 
   .title{
-   text-align: center;
-   font-size: 30px;
-   color: #F9FAF8;
+    text-align: center;
+    font-size: 30px;
+    color: #F9FAF8;
   }
   /*** create the button and giving it a space***/
 
@@ -74,22 +74,24 @@ img{
   .btn{
     position: absolute;
     top:45%;
-    background-color:#0909d8c0;
+    background-color:#3882f6;
     color: #fff;
     border:none; 
     border-radius:10px; 
     padding:15px;
     font-size: 18px;
-   }
+}
   
 /**working on pictures that will be dispaled on the top-content div **/
 .top-content{
     display: flex;
     background-color:bisque;
     height: 25%;
-    border-radius: 6px;
+    border-radius: 3px;
 }
-.top-content img{
+.img1, .img2, .img3, .img4{
+    justify-content:first baseline;
+    border-radius: 0%;
     width: 260px;
     height: 220px;
 }
@@ -97,17 +99,62 @@ img{
 .content{
     height: 25%;
     background: #b3b4b6;
+    border-radius: 3px;
 }
+.quotes{
+  font-size: 20px;
+  color: #1f2937;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+.quotes em{
+  font-style: italic;
+}
+
 /*** bottom div ***/
 .bottom{
-  height: 20%;
-  background: #F9FAF8;
-
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    background: #F9FAF8;
+    border-radius: 3px;
 }
+.action{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: #3882f6;
+  color:#F9FAF8;
+  height: 90px;
+  width: 800px;
+  padding:50px;
+  margin: auto;
+  border-radius: 10px;
+}
+.action p{
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-start;
+  align-content: flex-start;
+}
+.bttn{
+  background: #3882f6;
+  color: #F9FAF8
+}
+bttn::
 /*** footer ***/
 .footer{
     background-color: hsl(215, 28%, 17%);
     height: 5%;
     border: 1px solid black;
     border-radius: 6px;
+}
+.copyright{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    color: #F9FAF8;
 }
