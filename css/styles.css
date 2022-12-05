@@ -98,7 +98,7 @@ img{
 /*** third div that contains***/
 .content{
     height: 25%;
-    background: #b3b4b6;
+    background: #e5e7eb;
     border-radius: 3px;
 }
 .quotes{
@@ -143,7 +143,6 @@ img{
   background: #3882f6;
   color: #F9FAF8
 }
-bttn::
 /*** footer ***/
 .footer{
     background-color: hsl(215, 28%, 17%);
